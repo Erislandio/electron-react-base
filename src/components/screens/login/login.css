@@ -1,0 +1,88 @@
+#login-section {
+  background: #9dc762;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+#login-section > main {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 12px;
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+
+  -webkit-box-shadow: 2px 6px 29px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 29px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 6px 29px 0px rgba(0, 0, 0, 0.75);
+}
+
+#login-section .image-login {
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: center center;
+  max-width: 380px;
+  opacity: 0.8;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+#login-section main > div:last-child {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  padding: 20px;
+}
+
+#login-section main form {
+  width: 100%;
+}
+
+#login-section main form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#login-section main form div input {
+  padding: 10px 20px;
+  border: 1px solid #dedede;
+  margin-top: 5px;
+}
+
+#login-section main form div label {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+#login-section main form div button {
+  background-color: transparent;
+  border: 1px solid #dedede;
+  max-width: 200px;
+  color: #333;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+#login-section main form div button:hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
